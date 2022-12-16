@@ -1,0 +1,516 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+
+.section-truong .box-image img{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	opacity: 0.5;
+	-webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.section-truong .box-image img:hover{
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	opacity: 1;
+	-webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.section-truong .gallery-col {
+	padding-bottom: 0px;
+}
+.section-truong h3{
+	font-size: 40px;
+
+	color: #dbac69;
+}
+.section-gioi-thieu h3{
+
+	font-size: 30px;
+
+	color: #dbac69;
+}
+.section-gioi-thieu .widget-content{
+	padding: 20px 0px;
+}
+.section-chung-toi .title-home{
+	font-size: 48px;
+
+	color: #fff;
+}
+.section-giang-vien .title-home{
+	font-size: 48px;
+
+	color: #dbac69;
+}
+.section-nhan-xet .title-home{
+	font-size: 48px;
+
+	color: #fff;
+	text-transform: uppercase;
+}
+.section-ky-nang .title-home{
+	font-size: 38px;
+}
+.section-footer img{
+	width: 55%;
+}
+.section-footer .hotline-footer span{
+	font-size: 48px !important;
+	/* font-family: "TUV-Montserrat-Regular" !important; */
+	color: #7c7c7c;
+}
+.section-footer .hotline-footer span b{
+	color: #dbac69;
+}
+.section-chung-toi .box-shade .box-text {
+	text-shadow: none;
+	overflow: hidden;
+	position: absolute;
+	top: 75%;
+	width: 100%;
+	background: white;
+	transition: top 0.5s;
+	color: #fff;
+	padding: 2px 0px;
+}
+.section-chung-toi .box-shade{
+	background: #dbac69;
+}
+.section-chung-toi .box-shade:hover{
+
+	background: #4b4b4b;
+}
+.section-chung-toi .box-shade:hover .box-text {
+	text-shadow: none;
+	width: 100%;
+	background: rgba(219, 172, 105, 0.85);
+	transition: top 0.5s;
+	color: #fff;
+	padding: 12px 10px;
+	top: 0 !important;
+}
+.section-chung-toi .entry-content .entry-header {
+
+	text-align: center;
+	border-bottom: 1px solid #fff;
+
+}
+.section-chung-toi .box-shade:hover .entry-content .entry-header {
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+
+}
+.section-chung-toi .box-shade:hover .box-text .p-duoi {
+	transition: all 0.5s, visibility 0s;
+	-ms-transition: all 0.5s, visibility 0s;
+	-webkit-transition: all 0.5s, visibility 0s;
+	-moz-transition: all 0.5s, visibility 0s;
+	display: block !important;
+}
+.section-chung-toi .box-shade .p-duoi {
+	transition: all 0.5s, visibility 0s;
+	-ms-transition: all 0.5s, visibility 0s;
+	-webkit-transition: all 0.5s, visibility 0s;
+	-moz-transition: all 0.5s, visibility 0s;
+	display: none;
+}
+.section-chung-toi .box-shade:hover .entry-content .entry-header .entry-sub-title{
+	color: white !important
+}
+.section-chung-toi .box-shade:hover .box-text .entry-title {
+	color: white !important;
+	text-transform: uppercase;
+}
+.section-chung-toi .entry-content .entry-header .entry-title {
+
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #dbac69;
+	margin-bottom: 3px;
+}
+.section-chung-toi .entry-content .entry-header .entry-sub-title {
+
+	font-size: 14px;
+	line-height: 16px;
+	color: #666666;
+}
+
+/*het*/
+.copyright-footer{
+	color: white;
+}
+.section-nganh .entry-icon {
+	font-size: 64px;
+	color: #dbac69;
+}
+.section-nganh .icon-box:hover .icon-box-text .p-duoi {
+	font-size: 13px;
+	transition: all 0.5s, visibility 0s;
+	-ms-transition: all 0.5s, visibility 0s;
+	-webkit-transition: all 0.5s, visibility 0s;
+	-moz-transition: all 0.5s, visibility 0s;
+	display: block !important;
+	color: white;
+}
+.section-nganh .icon-box:hover .icon-box-text {
+	text-align: center;
+	text-shadow: none;
+	width: 100%;
+	background: #2d2d2d;
+	padding-top: 20px !important;
+	border-bottom: 15px solid #dbac69;
+	transition: top 0.5s;
+	color: #fff;
+	padding: 12px 10px;
+	top: 0 !important;
+}
+.section-nganh .icon-box:hover .icon-box-text h3{
+	color: white;
+}
+.section-nganh .icon-box-text  .p-duoi {
+	font-size: 13px;
+	transition: all 0.5s, visibility 0s;
+	-ms-transition: all 0.5s, visibility 0s;
+	-webkit-transition: all 0.5s, visibility 0s;
+	-moz-transition: all 0.5s, visibility 0s;
+	display: none;
+}
+.section-nganh .title-home span{
+	color: #dbac69;
+}
+.section-nganh .title-home {
+	font-size: 27px;
+	color: #4b4b4b;
+	line-height: 39px;
+	padding-left: 15px;
+	text-transform: uppercase;
+
+	border-left: 3px solid #dbac69;
+}
+.section-nganh .icon-box-text h3{
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.section-nganh .icon-box .icon-box-text {
+	padding-top: 76px !important;
+	text-align: center;
+	text-shadow: none;
+	overflow: hidden;
+	border-bottom: 15px solid transparent;
+	min-height: 337px;
+	width: 100%;
+	background: white;
+	transition: top 0.5s;
+	color: #fff;
+	padding: 12px 10px;
+}
+.row-dao-tao{
+	border: 1px solid #ddd;
+}
+.row-dao-tao .div-dao-tao-trai {
+	padding: 10px !important;
+	border-right: 1px solid #ddd;
+}
+.row-dao-tao .row-phai .col-inner{
+	padding: 1px;
+}
+.section-chung-toi .icon-box:hover .icon-box-text  {
+	text-shadow: none;
+	width: 100%;
+	background: rgba(219, 172, 105, 0.85);
+	transition: top 0.5s;
+	color: #fff;
+	padding: 12px 10px;
+	top: 0 !important;
+}
+.section-giang-vien .box-shade .box-text {
+	text-shadow: none;
+	overflow: hidden;
+	position: absolute;
+	top: 84%;
+	width: 100%;
+	background: white;
+	transition: top 0.5s;
+	color: #fff;
+	padding: 2px 0px;
+}
+.section-giang-vien .box-shade{
+	background: #dbac69;
+}
+.section-giang-vien .box-shade:hover{
+
+	background: #4b4b4b;
+}
+.section-giang-vien .box-shade:hover .box-text {
+	text-shadow: none;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	transition: top 0.5s;
+	color: #fff;
+	padding: 12px 10px;
+	top: 0 !important;
+}
+.section-giang-vien .entry-content .entry-header {
+
+	text-align: center;
+	border-bottom: 1px solid #fff;
+
+}
+.section-giang-vien .box-shade:hover .entry-content .entry-header {
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+
+}
+.section-giang-vien .box-shade:hover .box-text .p-duoi {
+	transition: all 0.5s, visibility 0s;
+	-ms-transition: all 0.5s, visibility 0s;
+	-webkit-transition: all 0.5s, visibility 0s;
+	-moz-transition: all 0.5s, visibility 0s;
+	display: block !important;
+}
+.section-giang-vien  .box-shade .p-duoi {
+	transition: all 0.5s, visibility 0s;
+	-ms-transition: all 0.5s, visibility 0s;
+	-webkit-transition: all 0.5s, visibility 0s;
+	-moz-transition: all 0.5s, visibility 0s;
+	display: none;
+}
+.section-giang-vien .box-shade:hover .entry-content .entry-header .entry-sub-title{
+	color: white !important
+}
+.section-giang-vien .box-shade:hover .box-text .entry-title {
+	color: white !important;
+	text-transform: uppercase;
+}
+.section-giang-vien .entry-content .entry-header .entry-title {
+
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #dbac69;
+	margin-bottom: 3px;
+}
+.section-giang-vien .entry-content .entry-header .entry-sub-title {
+
+	font-size: 14px;
+	line-height: 16px;
+	color: #666666;
+}
+.section-ky-nang .entry-icon {
+	transition: all 0.5s, visibility 0s;
+	-ms-transition: all 0.5s, visibility 0s;
+	-webkit-transition: all 0.5s, visibility 0s;
+	-moz-transition: all 0.5s, visibility 0s;
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	border: 1px dashed #fff;
+	position: relative;
+	background: transparent;
+}
+.section-ky-nang .col-inner:hover .entry-icon {
+	transition: all 0.5s, visibility 0s;
+	-ms-transition: all 0.5s, visibility 0s;
+	-webkit-transition: all 0.5s, visibility 0s;
+	-moz-transition: all 0.5s, visibility 0s;
+	background: #dbac69;
+	margin-top: -15px;
+	margin-bottom: 15px;
+}
+.section-ky-nang .col-inner{
+	text-align: center;
+}
+.section-ky-nang h4{
+	padding-top: 24px;
+}
+.section-ky-nang  .entry-icon i {
+	font-size: 35px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	top: 27px;
+	left: 27px;
+	color: #fff;
+}
+.div-dang-ky{
+	padding: 50px ;
+	width: calc(100% - 100px);
+	height: 100%;
+	background-image: url(images/nendo.jpg);
+	background-size: cover;
+}
+b, strong {
+	font-weight: bold;
+}
+#spu-164{
+	padding: 0px !important;
+}
+.dau-popup{
+	border-top: 10px solid #C1985D;
+	background: #E6E6E6;
+	text-align: center;
+	padding: 20px;
+}
+.dau-popup h3{
+	font-size: 35px;
+	color: #dbac69;
+	line-height: 1;
+	border-bottom: none;
+	font-weight: bold;
+}
+.dau-popup p{
+	color: #dbac69;
+}
+.nut-dk{
+	text-align: center;
+}
+.form-duoi{
+	background: white;
+	padding: 20px;
+}
+.section-dang-ky .title-home{
+
+
+	padding-top: 20px;
+	font-size: 42px;
+	color: #4b4b4b;
+}
+.section-dang-ky .title-home span{
+
+	color: #dbac69;
+}
+.div-dang-ky .ux-timer span{
+	padding: 33px 2px;
+	font-size: 80px !important;
+	background: rgba(219, 172, 105, 0.53) !important;
+	color: black !important;
+}
+.section-dang-ky .ux-timer span:last-child{
+	background: #dbac69 !important;
+	color: white !important;
+}
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+
+@media(max-width: 769px){
+	.section-footer .hotline-footer span {
+		font-size: 34px !important;}
+	.footer .section-footer{
+		padding: 0px !important;
+	}
+	.section-truong h3{
+		font-size: 20px;
+	}
+	.section-chung-toi .box-shade .box-text {
+
+		top: 51%;
+	}
+	.div-dang-ky .ux-timer span{
+		font-size: 30px !important;
+	}
+	.title-home{
+		font-size: 20px !important;
+	}
+	.section-nganh .icon-box .icon-box-text {
+		padding-top: 26px !important;
+		text-align: center;
+		text-shadow: none;
+		overflow: hidden;
+		border-bottom: 15px solid transparent;
+		min-height: 202px !important;
+	}
+}
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
